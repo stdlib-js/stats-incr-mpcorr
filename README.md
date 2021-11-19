@@ -20,7 +20,7 @@ limitations under the License.
 
 # incrmpcorr
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute a moving [sample Pearson product-moment correlation coefficient][pearson-correlation] incrementally.
 
@@ -171,9 +171,9 @@ console.log( accumulator() );
 
 ## See Also
 
--   [`@stdlib/stats/incr/mcovariance`][@stdlib/stats/incr/mcovariance]: compute a moving unbiased sample covariance incrementally.
--   [`@stdlib/stats/incr/mpcorrdist`][@stdlib/stats/incr/mpcorrdist]: compute a moving sample Pearson product-moment correlation distance incrementally.
--   [`@stdlib/stats/incr/pcorr`][@stdlib/stats/incr/pcorr]: compute a sample Pearson product-moment correlation coefficient.
+-   <span class="package-name">[`@stdlib/stats/incr/mcovariance`][@stdlib/stats/incr/mcovariance]</span><span class="delimiter">: </span><span class="description">compute a moving unbiased sample covariance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/mpcorrdist`][@stdlib/stats/incr/mpcorrdist]</span><span class="delimiter">: </span><span class="description">compute a moving sample Pearson product-moment correlation distance incrementally.</span>
+-   <span class="package-name">[`@stdlib/stats/incr/pcorr`][@stdlib/stats/incr/pcorr]</span><span class="delimiter">: </span><span class="description">compute a sample Pearson product-moment correlation coefficient.</span>
 
 </section>
 
@@ -224,8 +224,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-incr-mpcorr/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-incr-mpcorr?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-incr-mpcorr.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-incr-mpcorr/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
