@@ -80,7 +80,7 @@ r = \frac{\displaystyle\sum_{i=0}^{n-1} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\d
 ## Usage
 
 ```javascript
-import incrmpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@deno/mod.js';
+import incrmpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@v0.1.0-deno/mod.js';
 ```
 
 #### incrmpcorr( window\[, mx, my] )
@@ -151,7 +151,7 @@ r = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@deno/mod.js';
+import incrmpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@v0.1.0-deno/mod.js';
 
 var accumulator;
 var x;
