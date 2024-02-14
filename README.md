@@ -82,6 +82,11 @@ r = \frac{\displaystyle\sum_{i=0}^{n-1} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\d
 To use in Observable,
 
 ```javascript
+incrmpcorr = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mpcorr/tags). For example,
+
+```javascript
 incrmpcorr = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@v0.2.0-umd/browser.js' )
 ```
 
@@ -94,7 +99,7 @@ var incrmpcorr = require( 'path/to/vendor/umd/stats-incr-mpcorr/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -178,7 +183,7 @@ r = accumulator();
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
