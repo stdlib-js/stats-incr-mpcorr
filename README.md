@@ -80,6 +80,11 @@ r = \frac{\displaystyle\sum_{i=0}^{n-1} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\d
 ## Usage
 
 ```javascript
+import incrmpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mpcorr/tags). For example,
+
+```javascript
 import incrmpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@v0.2.3-esm/index.mjs';
 ```
 
@@ -156,7 +161,7 @@ r = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@v0.2.3-esm/index.mjs';
+import incrmpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mpcorr@esm/index.mjs';
 
 var accumulator;
 var x;
